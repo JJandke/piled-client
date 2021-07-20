@@ -7,7 +7,7 @@
     <!-- Statusbar color -->
     <color name="statusbar">#FF2E2E2E</color>
 
-    <!-- Color accent -->
+    <!-- Color accents -->
     <color name="acc1">#FF00BAAD</color>
     <color name="acc2">#FF2A7B9B</color>
     <color name="acc3">#FF57C785</color>
