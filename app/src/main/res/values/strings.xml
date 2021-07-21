@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">piled-client</string>
+    <string name="btn_red">RED</string>
 </resources>
