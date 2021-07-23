@@ -108,4 +108,18 @@
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_orange" />
+
+    <!-- BLACK -->
+    <Button
+        android:id="@+id/btn_black"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_black"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/btn_black"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_turquoise" />
 </androidx.constraintlayout.widget.ConstraintLayout>
