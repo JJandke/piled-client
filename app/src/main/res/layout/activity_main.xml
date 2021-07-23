@@ -93,4 +93,19 @@
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_blue" />
+
+    <!-- YELLOW -->
+    <Button
+        android:id="@+id/btn_yellow"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_yellow"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/btn_yellow"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_orange" />
 </androidx.constraintlayout.widget.ConstraintLayout>

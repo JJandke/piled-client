@@ -26,4 +26,5 @@
     <color name="btn_orange">#FFFF8000</color>
     <color name="btn_turquoise">#FF00FFFF</color>
     <color name="btn_purple">#FFB404AE</color>
+    <color name="btn_yellow">#FFFFFF00</color>
 </resources>
