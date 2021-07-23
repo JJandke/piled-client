@@ -43,7 +43,7 @@
         android:layout_marginTop="164dp"
         android:background="@drawable/button_blue"
         android:fontFamily="@font/ubuntu_light"
-        android:text="@string/btn_green"
+        android:text="@string/btn_blue"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,4 +78,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_green" />
+
+    <!-- PURPLE -->
+    <Button
+        android:id="@+id/btn_purple"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_purple"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/btn_purple"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_blue" />
 </androidx.constraintlayout.widget.ConstraintLayout>
