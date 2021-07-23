@@ -8,4 +8,5 @@
     <string name="btn_purple">PURPLE</string>
     <string name="btn_yellow">YELLOW</string>
     <string name="btn_black">BLACK</string>
+    <string name="btn_white">WHITE</string>
 </resources>

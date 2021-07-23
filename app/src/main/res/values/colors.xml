@@ -28,4 +28,5 @@
     <color name="btn_purple">#FFB404AE</color>
     <color name="btn_yellow">#FFFFFF00</color>
     <color name="btn_black">#FF000000</color>
+    <color name="btn_white">#FFFFFFFF</color>
 </resources>
