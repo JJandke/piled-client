@@ -24,4 +24,5 @@
     <color name="btn_green">#FF00FF00</color>
     <color name="btn_blue">#FF0000FF</color>
     <color name="btn_orange">#FFFF8000</color>
+    <color name="btn_turquoise">#FF00FFFF</color>
 </resources>
