@@ -23,10 +23,10 @@
     <color name="btn_red">#FFFF0000</color>
     <color name="btn_green">#FF00FF00</color>
     <color name="btn_blue">#FF0000FF</color>
-    <color name="btn_orange">#FFFF8000</color>
+    <color name="btn_orange">#FFFFA500</color>
     <color name="btn_turquoise">#FF00FFFF</color>
     <color name="btn_purple">#FFB404AE</color>
     <color name="btn_yellow">#FFFFFF00</color>
-    <color name="btn_black">#FF000000</color>
+    <color name="btn_black">#FF2E2E2E</color>
     <color name="btn_white">#FFFFFFFF</color>
 </resources>
