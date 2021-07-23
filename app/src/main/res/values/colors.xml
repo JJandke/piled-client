@@ -22,4 +22,5 @@
     <!-- Buttons -->
     <color name="btn_red">#FFFF0000</color>
     <color name="btn_green">#FF00FF00</color>
+    <color name="btn_blue">#FF0000FF</color>
 </resources>
