@@ -10,4 +10,7 @@
         android:topLeftRadius="32dip"
         android:bottomRightRadius="32dip"
         />
+    <stroke
+        android:width="3px" android:color="@color/btn_border"
+        />
 </shape>
