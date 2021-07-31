@@ -4,7 +4,7 @@
 
         <item name="colorPrimary">@color/at_night</item>
         <item name="colorPrimaryVariant">@color/statusbar</item>
-        <item name="colorOnPrimary">@color/text_night</item>
+        <item name="colorOnPrimary">@color/text_light</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/acc1</item>
         <item name="colorSecondaryVariant">@color/acc2</item>
