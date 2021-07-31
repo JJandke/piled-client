@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App title night -->
+    <!-- app title night -->
     <color name="at_night">#FF121212</color>
-    <!-- App title day -->
+    <!-- app title day -->
     <color name="at_day">#FFD8D8D8</color>
-    <!-- Statusbar color -->
+
+    <!-- statusbar color -->
     <color name="statusbar">#FF2E2E2E</color>
 
-    <!-- Color accents -->
-    <color name="acc1">#FF00BAAD</color>
+    <!-- color accents -->
+    <color name="acc1">#FF7199FF</color>
     <color name="acc2">#FF2A7B9B</color>
-    <color name="acc3">#FF57C785</color>
+    <color name="acc3">#FF274080</color>
 
-    <!-- Text -->
+    <!-- text -->
     <color name="text_light">#FFEFEFEF</color>
     <color name="text_dark">#FF1F1F1F</color>
 
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <!-- Buttons -->
+    <!-- buttons -->
     <color name="btn_red">#FFFF0000</color>
     <color name="btn_green">#FF00FF00</color>
     <color name="btn_blue">#FF0000FF</color>
