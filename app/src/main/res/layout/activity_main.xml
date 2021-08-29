@@ -62,7 +62,7 @@
         android:background="@drawable/button_orange"
         android:fontFamily="@font/ubuntu_light"
         android:text="@string/btn_orange"
-        android:textColor="@color/text_light"
+        android:textColor="@color/text_dark"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
@@ -161,5 +161,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 </androidx.constraintlayout.widget.ConstraintLayout>
