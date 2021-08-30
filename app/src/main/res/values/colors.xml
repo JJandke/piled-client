@@ -32,4 +32,8 @@
     <color name="btn_white">#FFFFFFFF</color>
     <color name="btn_border">#FF121212</color>
 
+    <!-- ui -->
+    <color name="onoff_background_On">#FF00FF66</color>
+    <color name="onoff_background_Off">#FF242424</color>
+
 </resources>

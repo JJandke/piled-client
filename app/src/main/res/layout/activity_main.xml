@@ -147,20 +147,49 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_purple" />
 
+    <!-- on-off switch background -->
+    <View
+        android:id="@+id/sw_onoff_background"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/onoff_background_states"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <!-- on-off switch -->
     <Switch
         android:id="@+id/sw_onoff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:layout_above="@id/sw_onoff_background"
         android:fontFamily="@font/ubuntu_light"
-        android:minHeight="48dp"
-        android:text="@string/sw_onoff"
+        android:minWidth="120dp"
+        android:minHeight="50dp"
         android:track="@drawable/switch_states"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <!-- on-off switch text-->
+    <TextView
+        android:id="@+id/sw_onoff_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_above="@id/sw_onoff_background"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/sw_onoff"
+        android:textColor="@color/text_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/sw_onoff"
+        app:layout_constraintEnd_toEndOf="@+id/sw_onoff"
+        app:layout_constraintTop_toTopOf="@+id/sw_onoff" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
