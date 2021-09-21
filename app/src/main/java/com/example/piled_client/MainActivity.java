@@ -56,4 +56,16 @@ public class MainActivity extends AppCompatActivity {
     public void purple(@Nullable View view){
         new orange().execute();
     }
+
+    public void yellow(@Nullable View view){
+        new yellow().execute();
+    }
+
+    public void black(@Nullable View view){
+        new black().execute();
+    }
+
+    public void white(@Nullable View view){
+        new white().execute();
+    }
 }
