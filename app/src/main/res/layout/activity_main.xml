@@ -243,11 +243,39 @@
         android:layout_marginEnd="60dp"
         android:layout_above="@id/sw_onoff_background"
         android:fontFamily="@font/ubuntu_light"
-        android:text="@string/sw_onoff"
+        android:text="@string/sw_function_leds"
         android:textColor="@color/text_dark"
         app:layout_constraintBottom_toBottomOf="@+id/sw_onoff"
         app:layout_constraintEnd_toEndOf="@+id/sw_onoff"
         app:layout_constraintTop_toTopOf="@+id/sw_onoff" />
+
+    <!-- sleep switch text-->
+    <TextView
+        android:id="@+id/sw_sleep_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_above="@id/sw_sleep_background"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/sw_function_sleep"
+        android:textColor="@color/text_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/sw_sleep"
+        app:layout_constraintEnd_toEndOf="@+id/sw_sleep"
+        app:layout_constraintTop_toTopOf="@+id/sw_sleep" />
+
+    <!-- office light switch text-->
+    <TextView
+        android:id="@+id/sw_officelight_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_above="@id/sw_officelight_background"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/sw_function_officelight"
+        android:textColor="@color/text_dark"
+        app:layout_constraintBottom_toBottomOf="@+id/sw_officelight"
+        app:layout_constraintEnd_toEndOf="@+id/sw_officelight"
+        app:layout_constraintTop_toTopOf="@+id/sw_officelight" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

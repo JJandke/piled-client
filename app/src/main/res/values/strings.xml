@@ -14,7 +14,13 @@
     <string name="btn_white">WHITE</string>
 
     <!-- text switches -->
-    <string name="sw_onoff">Off-On</string>
-    <string name="sw_sleep">sleep</string>
+    <string name="sw_function_leds">Off-On</string>
+    <string name="sw_name_onoff">LEDs</string>
+    <string name="sw_function_sleep">Off-On</string>
+    <string name="sw_name_sleep">Sleep</string>
+    <string name="sw_function_officelight">Off-On</string>
+    <string name="sw_name_officelight">Office</string>
+
+
 
 </resources>
