@@ -6,66 +6,58 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
-
-    @SuppressLint("UseSwitchCompatOrMaterialCode")
-    Switch sw_onoff;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sw_onoff = findViewById(R.id.sw_onoff);
-    }
 
+        // set switches
+        Switch sw_onoff = findViewById(R.id.sw_onoff);
 
-    // switches
-    public void  onOff(@Nullable View view){
-        if (sw_onoff.isChecked()){
-            new power_on().execute();
-        }
-        else{
-            new power_off().execute();
-        }
-    }
+        // set buttons
+        final Button red = findViewById(R.id.btn_red);
+        final Button green = findViewById(R.id.btn_green);
+        final Button blue = findViewById(R.id.btn_blue);
+        final Button orange = findViewById(R.id.btn_orange);
+        final Button turquoise = findViewById(R.id.btn_turquoise);
+        final Button purple = findViewById(R.id.btn_purple);
+        final Button yellow = findViewById(R.id.btn_yellow);
+        final Button black = findViewById(R.id.btn_black);
+        final Button white = findViewById(R.id.btn_white);
 
+        // wire switches to networking classes
+        sw_onoff.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (sw_onoff.isChecked()){
+                new power_on().execute();
+            }
+            else{
+                new power_off().execute();
+            }
+        });
 
-    // buttons
-    public void  red(@Nullable View view){
-        new red().execute();
-    }
+        // wire buttons to networking classes
+        red.setOnClickListener(v -> new red().execute());
 
-    public void  green(@Nullable View view){
-        new green().execute();
-    }
+        green.setOnClickListener(v -> new green().execute());
 
-    public void  blue(@Nullable View view){
-        new blue().execute();
-    }
+        blue.setOnClickListener(v -> new blue().execute());
 
-    public void  orange(@Nullable View view){
-        new orange().execute();
-    }
+        orange.setOnClickListener(v -> new orange().execute());
 
-    public void  turquoise(@Nullable View view){
-        new turquoise().execute();
-    }
+        turquoise.setOnClickListener(v -> new orange().execute());
 
-    public void purple(@Nullable View view){
-        new orange().execute();
-    }
+        purple.setOnClickListener(v -> new purple().execute());
 
-    public void yellow(@Nullable View view){
-        new yellow().execute();
-    }
+        yellow.setOnClickListener(v -> new yellow().execute());
 
-    public void black(@Nullable View view){
-        new black().execute();
-    }
+        black.setOnClickListener(v -> new yellow().execute());
 
-    public void white(@Nullable View view){
-        new white().execute();
+        white.setOnClickListener(v -> new white().execute());
     }
 }
