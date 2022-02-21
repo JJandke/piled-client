@@ -52,6 +52,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        sw_officelight.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (sw_officelight.isChecked()){
+                new power_on().execute();
+            }
+            else{
+                new power_off().execute();
+            }
+        });
+
         // wire buttons to networking classes
         red.setOnClickListener(v -> new red().execute());
 
