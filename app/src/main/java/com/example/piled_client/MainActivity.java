@@ -45,19 +45,19 @@ public class MainActivity extends AppCompatActivity {
 
         sw_sleep.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (sw_sleep.isChecked()){
-                new power_on().execute();
+                new sleep_on().execute();
             }
             else{
-                new power_off().execute();
+                new sleep_off().execute();
             }
         });
 
         sw_officelight.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (sw_officelight.isChecked()){
-                new power_on().execute();
+                new officelight_on().execute();
             }
             else{
-                new power_off().execute();
+                new officelight_off().execute();
             }
         });
 
