@@ -152,6 +152,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/onoff_background_states"
+        app:layout_constraintHorizontal_bias="0.051"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -163,9 +164,9 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/onoff_background_states"
+        app:layout_constraintHorizontal_bias="0.051"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sw_onoff_background" />
 
@@ -175,6 +176,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/onoff_background_states"
+        app:layout_constraintHorizontal_bias="0.051"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -213,7 +215,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_totOPOf="@+id/sw_onoff_background"
+        app:layout_constraintTop_toBottomOf="@+id/sw_onoff_background"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
 

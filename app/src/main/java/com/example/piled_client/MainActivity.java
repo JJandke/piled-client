@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         // set switches
         Switch sw_onoff = findViewById(R.id.sw_onoff);
+        Switch sw_sleep = findViewById(R.id.sw_sleep);
+        Switch sw_officelight = findViewById(R.id.sw_officelight);
 
         // set buttons
         final Button red = findViewById(R.id.btn_red);
@@ -34,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
         // wire switches to networking classes
         sw_onoff.setOnCheckedChangeListener((buttonView, isChecked) -> {
             if (sw_onoff.isChecked()){
+                new power_on().execute();
+            }
+            else{
+                new power_off().execute();
+            }
+        });
+
+        sw_sleep.setOnCheckedChangeListener((buttonView, isChecked) -> {
+            if (sw_sleep.isChecked()){
                 new power_on().execute();
             }
             else{
