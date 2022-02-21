@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_green"
         android:fontFamily="@font/ubuntu_light"
-        android:text="@string/btn_green"
+        android:text="@string/btn_red"
         android:textColor="@color/text_dark"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"

@@ -1,6 +1,6 @@
 <resources>
     <!-- app name -->
-    <string name="app_name">piled-client</string>
+    <string name="app_name" translatable="false">piled-client</string>
 
     <!-- text buttons -->
     <string name="btn_red">RED</string>
@@ -15,7 +15,7 @@
 
     <!-- text switches -->
     <string name="sw_function_leds">Off-On</string>
-    <string name="sw_name_onoff">LEDs</string>
+    <string name="sw_name_onoff" translatable="false">LEDs</string>
     <string name="sw_function_sleep">Off-On</string>
     <string name="sw_name_sleep">Sleep</string>
     <string name="sw_function_officelight">Off-On</string>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">piled-client</string>
+    <string name="btn_red">ROT</string>
+    <string name="btn_green">GRÜN</string>
+    <string name="btn_blue">BLAU</string>
+    <string name="btn_orange">ORANGE</string>
+    <string name="btn_turquoise">TÜRKIS</string>
+    <string name="btn_purple">LILA</string>
+    <string name="btn_yellow">GELB</string>
+    <string name="btn_black">SCHWARZ</string>
+    <string name="btn_white">WEISS</string>
+    <string name="sw_function_leds">Aus-An</string>
+    <string name="sw_function_sleep">Aus-An</string>
+    <string name="sw_name_sleep">Schlafmodus</string>
+    <string name="sw_function_officelight">Aus-An</string>
+    <string name="sw_name_officelight">Büro</string>
+</resources>
