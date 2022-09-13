@@ -1,13 +1,13 @@
 package com.example.piled_client;
 
-import androidx.annotation.Nullable;
+// import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
+// import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.View;
+// import android.view.View;
 import android.widget.Button;
-import android.widget.CompoundButton;
+// import android.widget.CompoundButton;
 import android.widget.Switch;
 
 public class MainActivity extends AppCompatActivity {
