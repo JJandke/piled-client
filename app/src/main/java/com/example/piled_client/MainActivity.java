@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         final Button yellow = findViewById(R.id.btn_yellow);
         final Button black = findViewById(R.id.btn_black);
         final Button white = findViewById(R.id.btn_white);
+        final Button fade = findViewById(R.id.btn_fade);
 
         // wire switches to networking classes
         sw_onoff.setOnCheckedChangeListener((buttonView, isChecked) -> {
@@ -70,14 +71,16 @@ public class MainActivity extends AppCompatActivity {
 
         orange.setOnClickListener(v -> new orange().execute());
 
-        turquoise.setOnClickListener(v -> new orange().execute());
+        turquoise.setOnClickListener(v -> new turquoise().execute());
 
         purple.setOnClickListener(v -> new purple().execute());
 
         yellow.setOnClickListener(v -> new yellow().execute());
 
-        black.setOnClickListener(v -> new yellow().execute());
+        black.setOnClickListener(v -> new black().execute());
 
         white.setOnClickListener(v -> new white().execute());
+
+        fade.setOnClickListener(v -> new fade().execute());
     }
 }

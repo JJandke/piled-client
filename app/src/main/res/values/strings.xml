@@ -12,6 +12,7 @@
     <string name="btn_yellow">YELLOW</string>
     <string name="btn_black">BLACK</string>
     <string name="btn_white">WHITE</string>
+    <string name="btn_fade" translatable="false">FADE</string>
 
     <!-- text switches -->
     <string name="sw_function_leds">Off-On</string>

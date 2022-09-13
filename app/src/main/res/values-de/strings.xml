@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">piled-client</string>
     <string name="btn_red">ROT</string>
     <string name="btn_green">GRÜN</string>
     <string name="btn_blue">BLAU</string>

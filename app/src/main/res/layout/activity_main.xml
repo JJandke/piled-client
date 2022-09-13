@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_green"
         android:fontFamily="@font/ubuntu_light"
-        android:text="@string/btn_red"
+        android:text="@string/btn_green"
         android:textColor="@color/text_dark"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
@@ -145,6 +145,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_purple" />
 
+    <!-- FADE -->
+    <Button
+        android:id="@+id/btn_fade"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button_fade"
+        android:fontFamily="@font/ubuntu_light"
+        android:text="@string/btn_fade"
+        android:textColor="@color/text_dark"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_yellow" />
+
     <!-- on-off switch background -->
     <View
         android:id="@+id/sw_onoff_background"
@@ -198,7 +214,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="UseSwitchCompatOrMaterialXml" />
+        tools:ignore="UseSwitchCompatOrMaterialXml,DuplicateSpeakableTextCheck" />
 
     <!-- sleep switch -->
     <Switch
